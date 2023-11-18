@@ -1,0 +1,28 @@
+## But
+
+Permettre de faire un CSV contenant les mots que vous souhaitez apprendre dans différents langages afin de faire des fiches de révisions grâce à Anki
+
+
+## Installation
+
+1. Clonez le repository : `https://github.com/Luczerty/projet-r`
+
+2. Installez les dépendances : `$ npm i reverso-api`
+
+3. Installez Anki : 'https://apps.ankiweb.net/'
+
+
+## Utilisation
+
+Pour lancer le programme qui va créer ou actualiser le CSV , exécutez la commande suivante :
+
+
+node projectR.js [le mot que vous souhaitez]
+
+## Prochain Ajout 
+
+1. Pouvoir choisir la langue de traduction 
+
+2. Pouvoir choisir la langue du mot qui est traduit 
+
+3.Essayer de faire une extension chrome 
