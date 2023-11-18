@@ -1,16 +1,31 @@
-# But
+# Projet Site DIY
 
-Permettre de créer un CSV contenant les mots que vous souhaitez apprendre dans différents langages afin de faire des fiches de révisions grâce à Anki
+-... --- -. .--- --- ..- .-. / .-.. . ... / .- -- .. ...
 
-## Installation
+## Répartiton travail
+  - Raphaël   : Script base de donnée 
+  - Guillaume : Pages HTML/JS/CSS
+  - Lucas     : Pages HTML/JS/CSS
+  - Théo      : API / Communication front/back
 
-1. Clonez le repository : `https://github.com/Luczerty/projet-r`
-2. Installez les dépendances : `$ npm i reverso-api`
-3. Installez Anki : [https://apps.ankiweb.net/](https://apps.ankiweb.net/)
-
-## Utilisation
-
-Pour lancer le programme qui va créer ou actualiser le CSV, exécutez la commande suivante :
-
-```bash
-node projectR.js [le mot que vous souhaitez]
+## Fonctionalité utilisateur :
+  - Ajout, suppression et modification de profil
+  - Recherche de DIY par mot clef, qui donne une liste de lien avec score de pertinance
+  - Poster et voir les commentaires pour chauque DIY
+  - Noter une recette
+  - Supression de commentaire
+  - Voir TOUT ses commentaires, et pouvoir les filtrer selon des critères (par DIY, par date, ...)
+  - Consulter les commentaires d'un DIY, possibilité de les trier selon des critère (récent, favorable, défavorable, ...)
+  - Ajouter un DIY (necessite validation d'un administrateur pour être posté sur le site)
+  - Estimer le coup du DIY
+  - DIY Favori ?
+  - Notification des nouveau DIY qui pourrait l'intéresser
+  
+## Fonctionalité administrateur :
+  - Gérer les DIY (ajout, suppresion, modification)
+  - Gérer les produits utilisé par les DIY et mets a jour les prix des matèriaux en fonction de l'inflation (permet de déterminer le coup des DIY)
+  - Valider ou non une recette proposé pas un utilisateur
+  - Publier sur la page d'acceuil du site pendant une semaine la photo de l'utilisateur le mieux noté ???? Les notes des DIY permettent un classement de leurs auteurs
+  
+## Choix de la semaine :
+Sur la page d'acceuil, mise a jour chaque semaine, seras marqué : L'utilisateur de la semaine, le DIY de la semaine, nouveauté de la semaine
