@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="extension_style.css">
+    <title>CSV Generator</title>
+</head>
+<body>
+    <h1 id="mainHeading">CSV Generator</h1>
+    <label for="dataInput">Enter Data:</label>
+    <div id="translationBar">
+        <input type="text" id="dataInput" placeholder="Enter your words here!" aria-labelledby="mainHeading" aria-describedby="dataInputDesc">
+        <button id="generateBtn">Generate</button>
+        <button id="addBtn">Add</button>
+        <button id="deleteBtn" >Delete</button>
+    </div>
+
+
+    <div id="translationTable">
+        <table>
+
+            <thead>
+                <tr>
+                    <th>French</th>
+                    <th>English</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="wordFrench">The table body</td>
+                    <td id="wordEnglish">with two columns</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    width: 300px; /* Largeur de votre popup */
+    height: 245px; /* Hauteur de votre popup */
+    margin: 0;
+    display: inline-block;
+    background-color: grey;
+    padding: 5px;
+    border: solid antiquewhite 10px;
+}
+
+#traduction_bar input {
+
+    border-radius: 50px;
+    width: 130px;
+}
+
+#traduction_bar{
+ 
+    padding: 10px;
+}
+
+ button {
+ border-radius: 50px;
+ background-color: antiquewhite;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+ }
+
+button:hover {
+    background-color: green;
+ }
+
+table{
+    padding: 10px;
+    width: 300px;
+}
+
+#tabl{
+
+    display: none;
+}
+ table,
+td {
+  border: 1px solid #333;
+    background-color: antiquewhite;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
+
+table,
+.langue{
+     height: 20px;
+
+}
+
+table,
+#wordFrench{
+     height: 50px;
+}
+
+table,
+#wordEnglish{
+     height: 50px;
+}

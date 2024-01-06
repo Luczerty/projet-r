@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "CSV Generator",
+  "version": "1.0",
+  "description": "Generate CSV from user input",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_icon": "icon48.png",
+    "default_title": "CSV Generator",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
